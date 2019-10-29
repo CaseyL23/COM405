@@ -13,39 +13,16 @@ public class Car
 {
 //Attribute
     private String regNo;
+       
     
+   //Constructor
+    public Car(String regNoIn)
+    {
+        regNo = regNoIn;
+    }
     
-    //Getter
     public String getRegNo()
     {
         return regNo;
     }
-    
-    //Setter
-    public void setRegNo (String regNoIn)
-    {
-      regNo = regNoIn;  
-    }
-    
-    private Car[] car;
-    
-   //Constructor
-    public Car()
-    {
-        car = new Car[15];
-    }
-    
-    public boolean addCar (Car carIn)
-    {
-        for(int i = 0; i< car.length; i++)
-        {
-            if(car[i] == null)
-            {
-                car[i] = carIn;
-                return true;
-            }
-        }
-       return false;
-    }
-        
 }

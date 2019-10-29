@@ -27,4 +27,11 @@ public class Car
       regNo = regNoIn;  
     }
     
+    private Car[] car;
+    
+   //Constructor
+    public Car()
+    {
+        car = new Car[1];
+    }
 }

@@ -32,6 +32,20 @@ public class Car
    //Constructor
     public Car()
     {
-        car = new Car[1];
+        car = new Car[15];
     }
+    
+    public boolean addCar (Car carIn)
+    {
+        for(int i = 0; i< car.length; i++)
+        {
+            if(car[i] == null)
+            {
+                car[i] = carIn;
+                return true;
+            }
+        }
+       return false;
+    }
+        
 }

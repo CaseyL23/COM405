@@ -11,10 +11,13 @@ package week6;
  */
 public class Car 
 {
-//Attributes
+//Attribute
     private String regNo;
     
     
-    //Getters
-    
+    //Getter
+    public String getRegNo()
+    {
+        return regNo;
+    }
 }

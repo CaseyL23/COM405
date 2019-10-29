@@ -13,8 +13,8 @@ public class Car
 {
 //Attributes
     private String regNo;
-    private int maxSpaces;
-    private int freeSpaces;
-    private int takenSpaces;
+    
+    
+    //Getters
     
 }

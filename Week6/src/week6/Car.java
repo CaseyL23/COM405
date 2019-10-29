@@ -20,4 +20,11 @@ public class Car
     {
         return regNo;
     }
+    
+    //Setter
+    public void setRegNo (String regNoIn)
+    {
+      regNo = regNoIn;  
+    }
+    
 }

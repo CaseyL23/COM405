@@ -9,6 +9,12 @@ package week6;
  *
  * @author 4littc85
  */
-public class Car {
+public class Car 
+{
+//Attributes
+    private String regNo;
+    private int maxSpaces;
+    private int freeSpaces;
+    private int takenSpaces;
     
 }

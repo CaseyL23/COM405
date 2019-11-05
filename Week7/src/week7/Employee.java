@@ -31,9 +31,19 @@ public String getName()
     return Name;
 }
 
+public String getpayRate ()
+{
+    return payRate;
+}
 
+public double getnoContractedHrs ()
+{
+    return noContractedHrs;
+}
 
-
-
+public double getHolidays ()
+{
+    return Holidays;
+}
 
 }

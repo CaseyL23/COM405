@@ -19,7 +19,7 @@ public class FrontLineStaff extends Employee
         @Override
         public double getYearlySalary()
         {
-            
+            return (payRate * noContractedHrs)*52;
         }
         
 {

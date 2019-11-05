@@ -11,10 +11,10 @@ package week7;
  */
 public class Employee 
 {
-    private String Name;
-    private double payRate;
-    private int noContractedHrs;
-    private int Holidays;
+    protected String Name;
+    protected double payRate;
+    protected int noContractedHrs;
+    protected int Holidays;
     
     
 public Employee (String NameIn, double payRateIn, int noContractedHrsIn, int HolidaysIn)

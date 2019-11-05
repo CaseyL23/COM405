@@ -11,8 +11,11 @@ package week7;
  */
 public class Manager extends Employee
 {
+    private int bonus;
+    
   public Manager(String NameIn, double payRateIn, int noContractedHrsIn, int HolidaysIn, int hourlyRateIn)  
   {
       super (NameIn, payRateIn, noContractedHrsIn, HolidaysIn);
   }
+  
 }

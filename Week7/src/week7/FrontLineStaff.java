@@ -13,7 +13,7 @@ public class FrontLineStaff extends Employee
   {      
         protected int hourlyRate;
 
-        public FrontLineStaff(String NameIn, String payRateIn, double noContractedHrsIn, double HolidaysIn, int hourlyRateIn)
+        public FrontLineStaff(String NameIn, double payRateIn, int noContractedHrsIn, int HolidaysIn, int hourlyRateIn)
     {
         super (NameIn, payRateIn, noContractedHrsIn, HolidaysIn);
         hourlyRate = hourlyRate;

@@ -13,9 +13,18 @@ public class Manager extends Employee
 {
     private int bonus;
     
-  public Manager(String NameIn, double payRateIn, int noContractedHrsIn, int HolidaysIn, int hourlyRateIn)  
+  public Manager(String NameIn, double payRateIn, int noContractedHrsIn, int HolidaysIn, int hourlyRateIn, int bonusIn)  
   {
       super (NameIn, payRateIn, noContractedHrsIn, HolidaysIn);
+      bonus = bonusIn;
   }
-  
+  public boolean setBonus(int bonusIn)
+  {
+      if(bonusIn >= 0 && bonusIn <=100)
+      {
+          bonus = bonusIn;
+          return true;
+      }
+      return false;
+  }
 }

@@ -41,5 +41,19 @@ public boolean setnoContractedHrs(int noContractedHrsIn)
     return false;
 }
 
+public double getYearlySalary()
+{
+    return payRate;
+}
+
+public boolean bookHoliday(int reduceBy)
+{
+    if (Holidays - reduceBy >=0)
+    {
+        Holidays -= reduceBy;
+        return true;
+    }
+    return false;
+}
 
 }

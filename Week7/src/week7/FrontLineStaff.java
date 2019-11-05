@@ -9,6 +9,10 @@ package week7;
  *
  * @author 4littc85
  */
-public class FrontLineStaff {
-    
+public class FrontLineStaff extends Employee
+{
+    public FrontLineStaff(String NameIn, String payRateIn, double noContractedHrsIn, double HolidaysIn)
+    {
+        super (NameIn, payRateIn, noContractedHrsIn, HolidaysIn);
+    }
 }

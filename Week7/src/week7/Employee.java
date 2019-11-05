@@ -11,13 +11,13 @@ package week7;
  */
 public class Employee 
 {
-    protected String Name;
-    protected String payRate;
-    protected double noContractedHrs;
-    protected double Holidays;
+    private String Name;
+    private double payRate;
+    private int noContractedHrs;
+    private int Holidays;
     
     
-public Employee (String NameIn, String payRateIn, double noContractedHrsIn, double HolidaysIn)
+public Employee (String NameIn, double payRateIn, int noContractedHrsIn, int HolidaysIn)
 {
     Name = NameIn;
     payRate = payRateIn;
@@ -31,17 +31,17 @@ public String getName()
     return Name;
 }
 
-public String getpayRate ()
+public double getpayRate ()
 {
     return payRate;
 }
 
-public double getnoContractedHrs ()
+public int getnoContractedHrs ()
 {
     return noContractedHrs;
 }
 
-public double getHolidays ()
+public int getHolidays ()
 {
     return Holidays;
 }

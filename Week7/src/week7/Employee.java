@@ -26,24 +26,20 @@ public Employee (String NameIn, double payRateIn, int noContractedHrsIn, int Hol
     
 }
 
-public String getName()
+public void setPay(double payRateIn)
 {
-    return Name;
+    payRate = payRateIn;
 }
 
-public double getpayRate ()
+public boolean setnoContractedHrs(int noContractedHrsIn)
 {
-    return payRate;
+    if (noContractedHrs <= 40)
+    {
+        noContractedHrs = noContractedHrsIn;
+        return true;
+    }
+    return false;
 }
 
-public int getnoContractedHrs ()
-{
-    return noContractedHrs;
-}
-
-public int getHolidays ()
-{
-    return Holidays;
-}
 
 }

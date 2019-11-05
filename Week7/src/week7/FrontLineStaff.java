@@ -11,17 +11,19 @@ package week7;
  */
 public class FrontLineStaff extends Employee
   {      
-        protected int hourlyRate;
-
         public FrontLineStaff(String NameIn, double payRateIn, int noContractedHrsIn, int HolidaysIn, int hourlyRateIn)
     {
         super (NameIn, payRateIn, noContractedHrsIn, HolidaysIn);
-        hourlyRate = hourlyRate;
+        
     }
-
-        public int gethourlyRate ()
+        @Override
+        public double getYearlySalary()
+        {
+            
+        }
+        
 {
-        return hourlyRate;
+        
 }
 
 }

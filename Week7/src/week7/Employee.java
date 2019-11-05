@@ -9,6 +9,18 @@ package week7;
  *
  * @author 4littc85
  */
-public class Employee {
+public class Employee 
+{
+    protected String name;
+    protected String payRate;
+    protected double noContractedHrs;
+    protected double Holidays;
     
+    
+public Employee (String nameIn, String payRateIn, double noContractedHrsIn, double HolidaysIn)
+{
+    name = nameIn;
+    
+}
+
 }

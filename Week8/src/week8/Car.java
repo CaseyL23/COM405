@@ -11,14 +11,21 @@ package week8;
  */
 public class Car {
     private String reg;
+    private String colour;
     
-    public Car(String regIn)
+    public Car(String regIn, String colourIn)
     {
         reg = regIn;
+        colour = colourIn;
     }
     
     public String getReg()
     {
         return reg;
+    }
+    
+     public String getColour()
+    {
+        return colour;
     }
 }

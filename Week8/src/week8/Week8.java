@@ -18,7 +18,7 @@ public class Week8 extends JFrame {
     
 
     public static void main(String[] args) {
-        private JLabel lblTitle;
+        
         private JLabel lblRegNo;
         private JLabel lblColour;
         private JLabel lblMake;
@@ -30,7 +30,8 @@ public class Week8 extends JFrame {
         private JTextField txtMake;
         private JTextField txtModel;
         
-        
+        private JButton btnAdd;
+        private JButton btnRemove;
         
     }
     

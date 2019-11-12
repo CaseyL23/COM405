@@ -27,7 +27,7 @@ public class Week8 extends JFrame
         private JLabel lblColour;
         private JLabel lblMake;
         private JLabel lblModel;
-        private JLabel lblstatus;
+        private JLabel lblStatus;
         
         private JTextField txtRegNo;
         private JTextField txtColour;
@@ -45,6 +45,18 @@ public Week8 () {
 
         initComponents();
         
+        
+        lblRegNo = new JLabel("Registration No:");
+        lblColour = new JLabel("Colour:");
+        lblMake = new JLabel("Make:");
+        lblModel = new JLabel("Model:");
+        lblStatus = new JLabel ("Car Park has 15 empty spaces");
+        txtRegNo = new JTextField ();
+        txtColour = new JTextField ();
+        txtMake = new JTextField ();
+        txtModel = new JTextField ();
+        btnAdd = new JButton("Add Car");
+        btnRemove = new JButton("Remove Car");
 
     
         

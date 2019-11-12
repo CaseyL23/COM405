@@ -20,11 +20,9 @@ import javax.swing.JButton;
 import javax.swing.JLabel;
 import.javax.swing.JTextField;
 
-public class Week8 extends JFrame {
-    
-
-    public static void main(String[] args) {
-        
+public class Week8 extends JFrame 
+    {
+     
         private JLabel lblRegNo;
         private JLabel lblColour;
         private JLabel lblMake;
@@ -40,5 +38,13 @@ public class Week8 extends JFrame {
         private JButton btnRemove;
         
     }
+public Week8 () {
     
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.setLayout(new GridBagLayout());
+
+
+    }
+
+
 }

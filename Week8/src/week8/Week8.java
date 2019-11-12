@@ -42,10 +42,13 @@ public Week8 () {
     
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLayout(new GridBagLayout());
-
         initComponents();
-        
-        
+
+    /**
+     *
+     */                            
+    public void initComponents();
+        {
         lblRegNo = new JLabel("Registration No:");
         lblColour = new JLabel("Colour:");
         lblMake = new JLabel("Make:");
@@ -57,11 +60,9 @@ public Week8 () {
         txtModel = new JTextField ();
         btnAdd = new JButton("Add Car");
         btnRemove = new JButton("Remove Car");
-
-    
-        
+           
     }
 
-
+    
 
 }

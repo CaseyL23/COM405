@@ -43,6 +43,7 @@ public class Week8 extends JFrame
         this.setLayout(new GridBagLayout());
         constraints = new GridBagConstraints();
         initComponents();
+        layoutComponents();
 
     
     public void initComponents()

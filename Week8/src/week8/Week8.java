@@ -37,14 +37,19 @@ public class Week8 extends JFrame
         private JButton btnAdd;
         private JButton btnRemove;
         
-    }
+    
 public Week8 () {
     
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLayout(new GridBagLayout());
 
+        initComponents();
+        
 
+    
+        
     }
+
 
 
 }

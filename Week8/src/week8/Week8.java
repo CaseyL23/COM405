@@ -36,6 +36,7 @@ public class Week8 extends JFrame
         
         private JButton btnAdd;
         private JButton btnRemove;
+        private Object constraints;
         
     
 public Week8 () {
@@ -63,6 +64,15 @@ public Week8 () {
            
     }
 
-    
+    public void layoutComponents()
+    {
+           constraints.gridy = 0;
+           constraints.gridx = 0;
+           this.add(lblRegNo, constraints);
+           
+           constraints.gridy = 1;
+           constraints.gridx = 0;
+           this.add(lblColour, constraints);
+    }
 
 }

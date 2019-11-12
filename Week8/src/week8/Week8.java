@@ -9,13 +9,29 @@ package week8;
  *
  * @author 4littc85
  */
-public class Week8 {
+import javax.swing.JFrame;
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import.javax.swing.JTextField;
 
-    /**
-     * @param args the command line arguments
-     */
+public class Week8 extends JFrame {
+    
+
     public static void main(String[] args) {
-        // TODO code application logic here
+        private JLabel lblTitle;
+        private JLabel lblRegNo;
+        private JLabel lblColour;
+        private JLabel lblMake;
+        private JLabel lblModel;
+        private JLabel lblstatus;
+        
+        private JTextField txtRegNo;
+        private JTextField txtColour;
+        private JTextField txtMake;
+        private JTextField txtModel;
+        
+        
+        
     }
     
 }

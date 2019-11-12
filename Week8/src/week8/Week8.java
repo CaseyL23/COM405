@@ -63,9 +63,32 @@ public class Week8 extends JFrame
            constraints.gridx = 0;
            this.add(lblRegNo, constraints);
            
+           constraints.gridx = 0;
+           constraints.fill = GridBagConstraints.HORIZONTAL;
+           this.add(txtRegNo, constraints);
+           
+           
            constraints.gridy = 1;
            constraints.gridx = 0;
+           constraints.fill = GridBagConstraints.NONE;
            this.add(lblColour, constraints); 
+           
+           constraints.gridx = 1;
+           constraints.fill = GridBagConstraints.HORIZONTAL;
+           this.add(txtColour, constraints);
+           
+           constraints.gridy = 2;
+           constraints.gridx = 0;
+           constraints.gridwidth = 2;
+           constraints.fill = GridBagConstraints.NONE;
+           this.add(lblStatus, constraints); 
+           
+           constraints.gridy = 3;
+           constraints.gridwidth = 1;
+           this.add(btnAdd, constraints); 
+           
+           constraints.gridy = 1;
+           this.add(btnRemove, constraints); 
     }
 
 }

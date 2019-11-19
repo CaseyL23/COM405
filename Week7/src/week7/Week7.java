@@ -13,11 +13,13 @@ public class Week7 {
 
     
     public static void main(String[] args) {
-        Employee em = new Employee("Susan",12,37,28);
+        Employee em = new Employee("Susan",1200,37,28);
         
-        Manager mg = new Manager("Sam",21,42,30,19,100);
+        Manager mg = new Manager("Sam",2750,42,30,19,100);
         
-        System.out.println(em.getYearlySalary());
+        System.out.println(em.getDetails());
+        
+        System.out.println(mg.getDetails());
         
         
         

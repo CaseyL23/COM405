@@ -58,7 +58,7 @@ public boolean bookHoliday(int reduceBy)
 
 public String getDetails()
 {
-    return Name + " " + Holidays + " " + getYearlySalary();
+    return "Employee Name: " + Name + ", " + "Holiday Entitlement: " + Holidays + " days" + ", " + "Yearly Salary: £" + getYearlySalary() ;
 }
 
 

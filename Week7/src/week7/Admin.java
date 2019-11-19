@@ -9,6 +9,16 @@ package week7;
  *
  * @author 4littc85
  */
-public class Admin {
+public class Admin extends Manager 
+{
+    protected String Manager;
     
+    public Admin(String NameIn, double payRateIn, int noContractedHrsIn, int HolidaysIn, int hourlyRateIn, int bonusIn) {
+        super(NameIn, payRateIn, noContractedHrsIn, HolidaysIn, hourlyRateIn, bonusIn);
+    }
+    
+    public String getManager()
+    {
+        return Manager;
+    }
 }

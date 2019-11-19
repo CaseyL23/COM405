@@ -61,4 +61,6 @@ public String getDetails()
     return Name + " " + Holidays + " " + getYearlySalary();
 }
 
+
+
 }

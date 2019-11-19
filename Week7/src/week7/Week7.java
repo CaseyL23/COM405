@@ -11,11 +11,16 @@ package week7;
  */
 public class Week7 {
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+        Employee em = new Employee("Susan",12,37,28);
+        
+        Manager mg = new Manager("Sam",21,42,30,19,100);
+        
+        System.out.println(em.getYearlySalary());
+        
+        
+        
     }
     
 }

@@ -13,7 +13,7 @@ public abstract class Vehicle
 {
     protected String regNo;
     protected double weight;
-    public abstract double calculatefee();
+    public abstract double calculateFee();
     
     public Vehicle(String regNoIn, double weightIn)
     {

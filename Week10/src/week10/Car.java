@@ -19,6 +19,13 @@ public Car(String regNoIn, double weightIn)
     @Override
     public double calculateFee()
     {
-        
-    }    
+       if(weight <= 1590)
+       {
+        return 5.00;
+                      
+       }
+       
+       return (weight - 1590);
+    }
+    
 }

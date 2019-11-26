@@ -19,7 +19,12 @@ public class Lorry extends Vehicle
     @Override
     public double calculateFee()
     {
-        
+        if(weight <= 8000)
+       {
+        return 10.00;
+                      
+       }
+        return 15.00;
     }
     
 }

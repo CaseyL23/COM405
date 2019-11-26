@@ -9,6 +9,16 @@ package week10;
  *
  * @author 4littc85
  */
-public class Motorbike {
+public class Motorbike extends Vehicle
+{
+    public Motorbike(String regNoIn, double weightIn)
+    {
+        super (regNoIn, weightIn);
+    }
     
+    @Override
+    public double calculatefee()
+    {
+        
+    }
 }

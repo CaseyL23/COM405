@@ -17,7 +17,7 @@ public class Motorbike extends Vehicle
     }
     
     @Override
-    public double calculatefee()
+    public double calculateFee()
     {
         
     }

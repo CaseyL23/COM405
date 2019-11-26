@@ -9,6 +9,17 @@ package week10;
  *
  * @author 4littc85
  */
-public class Lorry {
+public class Lorry extends Vehicle
+{
+    public Lorry(String regNoIn, double weightIn)
+    {
+        super (regNoIn, weightIn);
+    }
+    
+    @Override
+    public double calculateFee()
+    {
+        
+    }
     
 }

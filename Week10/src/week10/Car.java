@@ -17,7 +17,7 @@ public Car(String regNoIn, double weightIn)
     }
     
     @Override
-    public double calculatefee()
+    public double calculateFee()
     {
         
     }    

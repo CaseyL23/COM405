@@ -9,6 +9,25 @@ package week10;
  *
  * @author 4littc85
  */
-public class Vehicle {
+public abstract class Vehicle 
+{
+    protected String regNo;
+    protected double weight;
+    
+    public Vehicle(String regNoIn, double weightIn)
+    {
+        regNo = regNoIn;
+        weight = weightIn;
+    }
+    
+    public String getregNo()
+    {
+        return regNo;
+    }
+    
+    public double getweight()
+    {
+        return weight;
+    }
     
 }

@@ -11,25 +11,25 @@ package week10;
  */
 public abstract class Vehicle 
 {
-    protected String regNo;
-    protected double weight;
-    public abstract double calculateFee();
+    protected String reg;
+    protected int weight;
     
-    public Vehicle(String regNoIn, double weightIn)
+    public Vehicle(String regIn, int weightIn)
     {
-        regNo = regNoIn;
-        weight = weightIn;
+        reg = regIn;
+        weight= weightIn;
     }
     
-    public String getregNo()
+    public String getReg()
     {
-        return regNo;
+        return reg;
     }
     
-    public double getweight()
+    public int getWeight()
     {
         return weight;
     }
     
-        
+    public abstract double calcFee();
+    
 }

@@ -9,22 +9,21 @@ package week10;
  *
  * @author 4littc85
  */
-public class Lorry extends Vehicle
+public class Lorry extends Vehicle 
 {
-    public Lorry(String regNoIn, double weightIn)
+    public Lorry(String regIn, int weightIn)
     {
-        super (regNoIn, weightIn);
+        super(regIn, weightIn);
     }
-    
+
     @Override
-    public double calculateFee()
+    public double calcFee() 
     {
-        if(weight <= 8000)
-       {
-        return 10.00;
-                      
-       }
-        return 15.00;
+        if(weight < 8000)
+        {
+            return 10;
+        }
+        return 15;
     }
     
 }

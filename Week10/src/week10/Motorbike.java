@@ -9,16 +9,16 @@ package week10;
  *
  * @author 4littc85
  */
-public class Motorbike extends Vehicle
+public class Motorbike extends Vehicle 
 {
-    public Motorbike(String regNoIn, double weightIn)
+    public Motorbike(String regIn, int weightIn)
     {
-        super (regNoIn, weightIn);
+        super(regIn, weightIn);
+    }
+
+    @Override
+    public double calcFee() {
+        return 3.0;
     }
     
-    @Override
-    public double calculateFee()
-    {
-        return 3.00;
-    }
 }
